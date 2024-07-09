@@ -15,6 +15,9 @@ a{
     width: 1320px;
     margin: 0 auto;
 }
+span{
+    color: #FF0000;
+}
 #hero{
     padding: 50px 0 120px;
 }
@@ -121,4 +124,46 @@ a{
 #midnight_party .banner_two .overlay .content .btn a:hover{
     color: #FF0000;
 }
-
+#place_part{
+    padding: 120px 0;
+}
+#place_part .banner_three{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    padding: 100px 0 110px;
+}
+#place_part .banner_three .overlay{
+    text-align: center;
+}
+#place_part .banner_three .overlay #place,
+#place_part .banner_three .overlay #date,
+#place_part .banner_three .overlay #time
+{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+#place_part .banner_three .overlay .btn{
+    margin-top: 48px;
+}
+#place_part .banner_three .overlay .btn a{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 32px;
+    background: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: .3s;
+}
+#place_part .banner_three .overlay .btn a:hover{
+    border-color: #ff0000;
+    background: #ffffff;
+    color: #ff0000;
+}
