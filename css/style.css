@@ -233,3 +233,56 @@ span{
 #holiday_sales{
     padding: 120px 0;
 }
+#holiday_sales .sales_text h4{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    color: rgb(7, 2, 17);
+    margin-bottom: 16px;
+}
+#holiday_sales .sales_text h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    text-align: center;
+    margin-bottom: 28px;
+    color: #070211;
+}
+#holiday_sales .sales_text p{
+    width: 1068px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    margin: 0 auto 64px;
+}
+#holiday_sales .sales_img{
+    padding-top: 433px;
+    position: relative;
+}
+#holiday_sales .sales_img .solid{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+}
+#holiday_sales .sales_img .box_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#holiday_sales .sales_img .girl_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#holiday_sales .sales_img .discount_img{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
